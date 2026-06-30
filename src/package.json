@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "nx build web",
+    "build": "NX_DAEMON=false nx build web",
     "start": "nx start web"
   },
   "private": true,
