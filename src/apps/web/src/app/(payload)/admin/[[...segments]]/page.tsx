@@ -1,6 +1,6 @@
 import configPromise from '@payload-config'
 import { RootPage } from '@payloadcms/next/views'
-import { importMap } from '@payloadcms/next/importMap'
+import { importMap } from '../importMap.js'
 
 type Args = {
   params: Promise<{
